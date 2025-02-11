@@ -44,12 +44,12 @@ body {
 
 .content {
     max-width: 600px;
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
-    font-size: 3rem; /* Ajusté el tamaño de la fuente */
-    font-weight: 500; /* Ajusté el grosor de la fuente */
+    font-size: 3rem;
+    font-weight: 500;
     margin-bottom: 1rem;
 }
 
@@ -68,7 +68,7 @@ a.button {
     color: white;
     text-decoration: none;
     padding: 0.8rem 1.5rem;
-    border-radius: 5px; /* Cambié el border-radius para bordes rectos */
+    border-radius: 5px;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -82,12 +82,23 @@ a.button {
 
 .textonegro{
 	color: var(--color-general);
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: 700;
 }
 
+.textoblanco{
+	color: var(--color-titulos);
+	font-size: 20px;
+	font-weight: 600;
+}
 .textoparrafo{
 	color: var(--color-general);
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.textoparrafoblanco{
+	color: var(--color-titulos);
 	font-size: 15px;
 	font-weight: 500;
 }
@@ -137,22 +148,22 @@ a.button {
 
 .iconos{
 	color: var( --color-rojo);
-	font-size: 15px;
+	font-size: 30px;
 }
 .balance-section {
     background-color: var(--fondo-gris);
- padding: 40px 0;
+ padding: 10px 0;
 }
 
 .container {
-    max-width: 1100px;
+;
     margin: 0 auto;
-    padding: 0 20px;
+
 }
 
 .balance-header {
     text-align: left;
-    max-width: 500px;
+
     margin-bottom: 40px;
 }
 
@@ -181,14 +192,71 @@ a.button {
     margin-bottom: 15px;
 }
 
-.balance-subtitle {
-    font-size: 20px;
-    font-weight: 700;
-    color: #af221d;
+
+.hotline {
+  background-color: var(--fondo-gris); 
+  padding: 60px 0; 
+  text-align: center; 
+}
+
+.hotline .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+.hotline h2 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  color: #333; 
+  font-size: 18px;
+}
+
+
+
+.footer {
+    background-color: var(--fondo-footer);
+    padding: 40px 0;
+    color: var(--letra-footer); 
+}
+
+.footer .container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+}
+
+.footer-column h3 {
+    margin-bottom: 15px;
+}
+
+.footer-column p,
+.footer-column ul {
     margin-bottom: 10px;
 }
 
-.balance-desc {
-    font-size: 16px;
-    color: #333;
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column a {
+    color: var(--letra-footer);
+    text-decoration: none;
 }
