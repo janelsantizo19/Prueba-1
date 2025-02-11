@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;700&display=swap');
+
+:root {
+    --fondo-header: #2b2b2b;
+    --color-general: #333;
+    --color-titulos: #fff;
+    --color-texto: #ccc;
+    --color-rojo: #af221d;
+    --fondo-footer: #333;
+    --letra-footer: #fff;
+	--fondo-gris: #f3f3f3;
+	--fondo-blanco: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-general);
+    color: var(--color-titulos);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero {
+    background: url( "../img/bg-valentines.jpg") no-repeat center center/cover; 
+    color: white;
+    text-align: left;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem; /* Ajusté el tamaño de la fuente */
+    font-weight: 500; /* Ajusté el grosor de la fuente */
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: var(--color-texto);
+}
+
+.button-container {
+    margin-top: 1.5rem;
+}
+
+a.button {
+    background: var(--color-rojo);
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px; /* Cambié el border-radius para bordes rectos */
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.textorojo{
+	color: var(--color-rojo);
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.textonegro{
+	color: var(--color-general);
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.textoparrafo{
+	color: var(--color-general);
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.textosubtitulo{
+	color: var(--color-general);
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.guarantee {
+    padding: 4rem 0;
+    background-color: var(--fondo-blanco);
+    color: var(--color-general);
+}
+
+.guarantee h2 {
+    margin-bottom: 1rem;
+}
+
+
+.guarantee img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.guarantee-points {
+    margin-top: 2rem;
+}
+
+.guarantee-point {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 1rem;
+}
+
+.guarantee-point img {
+    width: 50px; 
+    height: auto;
+    margin-right: 1rem; 
+}
+
+.guarantee-point p {
+    margin-bottom: 0; 
+}
+
+.iconos{
+	color: var( --color-rojo);
+	font-size: 15px;
+}
+.balance-section {
+    background-color: var(--fondo-gris);
+ padding: 40px 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.balance-header {
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.balance-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.balance-text {
+    font-size: 18px;
+    color: #666;
+}
+
+.balance-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+}
+
+.balance-item img {
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.balance-subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #af221d;
+    margin-bottom: 10px;
+}
+
+.balance-desc {
+    font-size: 16px;
+    color: #333;
+}
